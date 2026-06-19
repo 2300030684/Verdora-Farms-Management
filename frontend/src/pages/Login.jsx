@@ -57,7 +57,7 @@ const Login = () => {
       </div>
 
       {/* Centered Login Form */}
-      <div className="relative z-10 w-full max-w-md px-4">
+      <div className="relative z-10 w-full max-w-md px-4 mb-24 md:mb-32">
         <div className="bg-[#141f17]/80 backdrop-blur-xl p-8 sm:p-10 rounded-3xl shadow-2xl border border-white/10">
           <form className="space-y-6" onSubmit={handleLogin}>
             {error && <div className="p-3 bg-red-500/20 text-red-200 text-center rounded-lg text-sm font-medium border border-red-500/30">{error}</div>}
